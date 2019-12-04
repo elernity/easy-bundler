@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`语法转换测试 应转换asset代码 1`] = `
+"module.exports = require(\\"AssetRegistry.js\\").registerAsset({
+  \\"__packager_asset\\": true,
+  \\"httpServerLocation\\": \\"\\",
+  \\"width\\": 1,
+  \\"height\\": 1,
+  \\"scales\\": [],
+  \\"hash\\": \\"hash\\",
+  \\"name\\": \\"name\\",
+  \\"type\\": \\"type\\"
+});"
+`;
+
+exports[`语法转换测试 应转换module代码 1`] = `
+"function output() {
+  console.log('module');
+}
+
+module.exports = output;"
+`;
+
+exports[`语法转换测试 应转换script代码 1`] = `"console.log('script');"`;

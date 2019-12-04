@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`代码混淆测试 应混淆代码 1`] = `"for(let o=0;o<1e3;o++)console.log(o);"`;

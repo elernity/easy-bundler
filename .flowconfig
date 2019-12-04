@@ -1,0 +1,30 @@
+[ignore]
+# 忽略引入的代码
+<PROJECT_ROOT>/src/lib/polyfills/.*
+<PROJECT_ROOT>/src/lib/replacement/.*
+<PROJECT_ROOT>/src/lib/AssetRegistry.js
+<PROJECT_ROOT>/src/lib/asyncRequire.js
+# 忽略测试代码
+.*/__files__/.*
+.*/__mocks__/.*
+.*/__tests__/.*
+# 忽略脚本代码
+<PROJECT_ROOT>/scripts/.*
+# 忽略构建产生的代码
+<PROJECT_ROOT>/build/.*
+# 忽略暂时无用代码
+<PROJECT_ROOT>/src/lib/normalizePseudoglobals.js
+
+[options]
+emoji=true
+esproposal.class_static_fields=enable
+esproposal.decorators=ignore
+suppress_comment=.*\\$FlowFixMe.*
+suppress_comment=.*\\$FlowIssue.*
+suppress_comment=.*\\$FlowIgnore.*
+module.system.node.resolve_dirname=node_modules
+module.system.node.resolve_dirname=extraPresets
+module.system.node.resolve_dirname=extraPresets
+
+[version]
+0.91.0

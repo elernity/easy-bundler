@@ -1,0 +1,17 @@
+!.eslintrc.js
+**/node_modules/**
+**/__files__/**
+**/__mocks__/**
+**/__tests__/**
+src/lib/AssetRegistry.js
+src/lib/asyncRequire.js
+src/lib/MapWithDefaults.js
+src/lib/normalizePseudoglobals.js
+src/lib/polyfill/**
+src/lib/replacement/**
+src/transform/extraPresets/**
+src/transform/extraPlugins/**
+bin/
+docs/
+scripts/
+build/

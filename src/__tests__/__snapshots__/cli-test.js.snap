@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`命令行参数处理测试 命令行未配置的项应该剔除 1`] = `"{\\"projectRoot\\":\\"/tmp/root\\",\\"entryFile\\":\\"/tmp/root/index.js\\",\\"output\\":\\"/tmp/root/output/index.platform.bundle\\"}"`;
+
+exports[`命令行参数处理测试 路径形式的参数应统一为绝对路径 1`] = `"{\\"projectRoot\\":\\"/tmp/root\\",\\"entryFile\\":\\"/tmp/root/index.js\\",\\"output\\":\\"/tmp/root/output/index.platform.bundle\\"}"`;

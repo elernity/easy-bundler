@@ -1,0 +1,11 @@
+{
+    "userConfig": {
+        "projectRoot": "",
+        "entryFile": "",
+        "output": "",
+        "platform": "ios",
+        "dev": false,
+        "assetsOutput": "/tmp/root/output/assets/by/customConfig/",
+        "split": true
+    }
+}

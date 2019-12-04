@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Asset辅助工具测试 应生成正确的Asset模块语法分析树 1`] = `
+"module.exports = require(\\"/path/of/asset/registry\\").registerAsset({
+  \\"__packager_asset\\": true,
+  \\"httpServerLocation\\": \\"/assets/location\\",
+  \\"width\\": 55,
+  \\"height\\": 55,
+  \\"scales\\": [1],
+  \\"hash\\": \\"hash\\",
+  \\"name\\": \\"name\\",
+  \\"type\\": \\"png\\"
+});"
+`;

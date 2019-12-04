@@ -1,0 +1,7 @@
+**/__files__/**
+**/__mocks__/**
+**/__tests__/**
+.idea
+.vscode
+node_modules
+src
